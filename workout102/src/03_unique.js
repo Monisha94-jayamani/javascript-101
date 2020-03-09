@@ -10,7 +10,8 @@
 var unique;
 
 unique = function(arr) {
-  return "summon here";
+  var a=[...new Set(arr)];
+  return a;
 };
 
 /*--Mocha Testing--*/
